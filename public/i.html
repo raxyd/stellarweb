@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="img/logo/stellar.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#join">Join Us</a></li>
+                <li><a href="#footer">Follow Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Community!</h1>
+        <p>Connect, Share, and Grow</p>
+        <a href="#join" class="cta-button hero-button">Join Our Discord Server</a>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-box">
+            <div class="feature-icon">🛡️</div>
+            <h3>Friendly Environment!</h3>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">🔗</div>
+            <h3>Exclusive Channels!</h3>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">🌐</div>
+            <h3>Refreshing Links!</h3>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">🎉</div>
+            <h3>Many parties! (if you engage on the server)</h3>
+        </div>
+    </section>
+
+    <section id="join" class="join">
+        <h2>Join Us</h2>
+        <p>Ready to Dive In?</p>
+        <a href="#" class="cta-button">Join Our Discord Server</a>
+    </section>
+
+    <footer id="footer" class="footer">
+        <p>Follow Us</p>
+        <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </footer>
+
+    <script>
+        const stickyButton = document.getElementById('stickyButton');
+
+        window.onscroll = function() {
+            if (document.documentElement.scrollTop > 100) {
+                stickyButton.style.display = 'block';
+            } else {
+                stickyButton.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #000000, #87a3ff);
+    color: #333;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #3333335b;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #ff4c4c;
+}
+
+.hero-button {
+    margin-left: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+    background: linear-gradient(to bottom right, #00000000, #87a3ff00);
+    color: rgb(48, 48, 48);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+
+.features, .join {
+    padding: 60px 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.features h2, .join h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    color: #000000;
+}
+
+.feature-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#stickyButton {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    display: none;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+#stickyButton:hover {
+    background-color: #ff4c4c;
+}
